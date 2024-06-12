@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre HTML y CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background: red;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav {
+            background: red;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            text-align: center;
+        }
+        .container {
+            margin: 60px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .iframe-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        iframe {
+            border: 1px solid lightgray;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .grid-item {
+            background: lightgray;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Información sobre HTML y CSS</h1>
+</header>
+
+<nav>
+    <strong>HTML Y CSS</strong>
+</nav>
+<div class="container">
+    <h2>Elementos HTML y CSS más usados</h2>
+    <p>HTML y CSS son lenguajes fundamentales para la creación de páginas web. A continuación, se muestra información sobre los elementos más comunes.</p>
+
+    <div class="iframe-container">
+        <div>
+            <h3>Universidad Unphu</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.9523363129338!2d-69.95090892583138!3d18.485818070236913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f362e578d3%3A0x19d59fe09af95898!2sUniversidad%20Nacional%20Pedro%20Henr%C3%ADquez%20Ure%C3%B1a%20(UNPHU)!5e0!3m2!1ses!2sdo!4v1717781486333!5m2!1ses!2sdo" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+            <h3>Video sobre Programación Web</h3>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/MJkdaVFHrto?si=AFleJrGy0Sr5B7Om" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <h3>Lista de elementos HTML más usados</h3>
+    <ul>
+        <li>&lt;div&gt; - División de secciones</li>
+        <li>&lt;p&gt; - Párrafo de texto</li>
+        <li>&lt;a&gt; - Enlace</li>
+        <li>&lt;img&gt; - Imagen</li>
+        <li>&lt;h1&gt; a &lt;h6&gt; - Encabezados</li>
+    </ul>
+
+    <h3>Lista de propiedades CSS más usadas</h3>
+    <ol>
+        <li>color</li>
+        <li>font-size</li>
+        <li>margin</li>
+        <li>padding</li>
+        <li>background-color</li>
+    </ol>
+
+    <h3>Tabla de etiquetas HTML</h3>
+    <table>
+        <tr>
+            <th>Etiqueta</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>&lt;div&gt;</td>
+            <td>Define una sección o contenedor en el documento</td>
+        </tr>
+        <tr>
+            <td>&lt;p&gt;</td>
+            <td>Define un párrafo</td>
+        </tr>
+        <tr>
+            <td>&lt;a&gt;</td>
+            <td>Define un enlace</td>
+        </tr>
+        <tr>
+            <td>&lt;img&gt;</td>
+            <td>Define una imagen</td>
+        </tr>
+        <tr>
+            <td>&lt;h1&gt; a &lt;h6&gt;</td>
+            <td>Definen encabezados de diferentes niveles</td>
+        </tr>
+    </table>
+
+    <h3>Grid de elementos</h3>
+    <div class="grid-container">
+        <div class="grid-item">Elemento 1</div>
+        <div class="grid-item">Elemento 2</div>
+        <div class="grid-item">Elemento 3</div>
+        <div class="grid-item">Elemento 4</div>
+    </div>
+</div>
+
+<footer>
+    Esta es mi pagina web!
+</footer>
+
+</body>
+</html>
