@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-brand {
+    font-weight: bold;
+    padding-top: 60px; 
+    
+}
+
+.navbar-nav {
+    background: rgb(46, 45, 45);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.main-header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    color: black
+    text-emphasis-color: black;
+    padding: 100px 0;
+    
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+#about, #projects, #contact, #privacy, #links, #articles {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: darkgrey;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+.dark-mode  .btn-dark  {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode  .row  {
+    background-color: black;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
